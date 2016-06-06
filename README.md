@@ -6,3 +6,4 @@ tried two methods of getting the body data
 io.copy()
 ioutil.ReadAll()
 
+****

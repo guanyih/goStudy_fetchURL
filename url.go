@@ -37,5 +37,13 @@ func main() {
 			os.Exit(1)
 		}
 		fmt.Printf("%s", os.Stdout)
+
+		str := content.Status
+
+		if str == "" {
+			fmt.Printf("failed to get the status")
+			os.Exit(1)
+		}
+		fmt.Printf("\n the status code is: ", str)
 	}
 }
